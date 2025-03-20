@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="worker-bridge.js"></script>
+	<title>Dynamic Web Worker Demo</title>
+</head>
+<body>
+	<header class="header">
+		<h1>Dynamic Web Worker Demo</h1>
+	</header>
+	<main>
+		<div class="box">
+			<p>This is a demo of a webworker that is dynamically created and loaded. Enter your name in the input box below and click the "Get Greeting" button to display a worker-generated greeting.</p>
+		</div>
+		<div class="box">
+			<input type="text" name="name" id="nameInput" placeholder="Enter your name">
+		</div>
+		<div class="box">
+			<button id="getGreetingBtn">Get Greeting</button>
+		</div>
+	</main>
+	<script src="main.js"></script>
+</body>
+</html>
