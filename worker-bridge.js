@@ -56,10 +56,6 @@
 
   // Add worker bridge to window/global context.
   function init() {
-    const workerUtils = {
-      WorkerBridge: WorkerBridge,
-    };
-
     global.WorkerBridge = global.WorkerBridge ?? WorkerBridge;
   }
 
